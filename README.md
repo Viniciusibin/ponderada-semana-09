@@ -76,7 +76,7 @@ A seguir, detalhamos dois ataques exemplificativos:
 
 Abaixo segue a tabela com alguns ataques identificados, ordenados pelo risco (do maior para o menor).
 
-```markdown
+
 | Título do Ataque                        | Probabilidade | Impacto     | Risco |
 |-----------------------------------------|---------------|-------------|-------|
 | Exfiltração de Credenciais de Rede       | Média         | Alto        | Alto  |
@@ -84,7 +84,8 @@ Abaixo segue a tabela com alguns ataques identificados, ordenados pelo risco (do
 | Negação de Serviço (DoS)                 | Alta          | Médio       | Alto  |
 | Injeção de Código via Input HTTP         | Média         | Médio-Alto  | Alto  |
 | Escalamento de Privilégios na Rede       | Média         | Alto        | Alto  |
-```
+
+
 Observação: Embora todos listados tenham alto risco, a ordem prioriza acesso à rede (impacto crítico), depois controle direto do dispositivo e, por fim, ataques com impacto operacional e possibilidade de expansão (privilégios).
 
 
